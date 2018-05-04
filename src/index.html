@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Vigenère Cipher</h1>
+      <blockquote cite="https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher">
+        <p><strong>Vigenère Cipher</strong> (<small>French pronunciation: ​[viʒnɛːʁ]</small>), a method of encrypting alphabetic text by using a series of interwoven <em>Caesar ciphers</em> based on the letters of a keyword. <br>It is a form of <a href="https://en.wikipedia.org/wiki/Polyalphabetic_cipher">polyalphabetic substitution</a>.</p>
+        <footer>—
+            <a href="https://en.wikipedia.org/" class="reference">en.wikipedia.org</a>
+        </footer>
+      </blockquote>
+    </header>
+  </div>
+
+  <div class="container">
+    <section class="encryptSection">
+      <label for="key">Key</label>  
+      <input type="text" id="key">
+      <label for="key">Plain Text</label>
+      <input type="text" id="plain">
+      <button onclick="capture()">Encrypt</button>
+      <label for="key">Cipher Text</label>
+      <textarea name="cipherInput" id="cipherInput"></textarea>
+    </section>
+  </div>
+
+  <div class="floating">
+    <a class="about" href="https://pages.mtu.edu/~shene/NSF-4/Tutorial/VIG/Vig-Base.html" target="_blank"><i class="fas fa-question-circle fa-3x"></i></a>
+    <a class="github" href="https://github.com/username" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+    <a class="bubble" href="mailto:name@domain.com" target="_blank"><i class="fas fa-comments fa-3x"></i></a>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
